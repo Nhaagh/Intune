@@ -3,7 +3,7 @@ Install-Module -Name Microsoft.Graph.Groups -Force -AllowClobber
 Import-Module -Name Microsoft.Graph.Groups
 Import-Module -Name Microsoft.Graph.DeviceManagement
 
-Connect-MgGraph -scopes Group.Read.All, DeviceManagementManagedDevices.Read.All, DeviceManagementServiceConfig.Read.All, DeviceManagementApps.Read.All, DeviceManagementApps.Read.All, DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementApps.ReadWrite.All
+Connect-MgGraph -scopes Group.Read.All, DeviceManagementManagedDevices.Read.All, DeviceManagementServiceConfig.Read.All, DeviceManagementApps.Read.All, DeviceManagementApps.Read.All, DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementApps.ReadWrite.All,DeviceManagementScripts.Read.All
 
 
 ### Get Azure AD Group
